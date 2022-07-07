@@ -52,7 +52,7 @@ h1 {
 #right-container {
     height: 100%;
     width: 60%;
-    background: #dddddd;
+    background: #ffffff;
 }
 
 #text-container {
@@ -72,4 +72,29 @@ h1 {
 #form-container {
     height: 40%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    height: 100%;
+}
+
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 2rem;
+}
+
+input {
+    height: 30px;
+    width: 220px;
 }
