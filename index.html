@@ -27,16 +27,58 @@
         <section id="right-container">
             <div id="text-container">
                 <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                   <br>
-                   Sign up <i>now</i> to get started.</p>
+                    <br>
+                    Sign up <i>now</i> to get started.
+                </p>
                 <p>You <i>know</i> lorem ipsum dolor sit amet consectetur.</p>
             </div>
 
 
             <div id="form-container">
+                <h2>Let's do this!</h2>
+
                 <form action="#">
 
+                    <div class="input-container">
+                        <div class="inner">
+                            <label for="first_name">First Name</label>
+                            <input id="first_name" name="first_name" type="text" required>
+                        </div>
+
+                        <div class="inner">
+                            <label for="last">Last Name</label>
+                            <input id="last_name" name="last_name" type="text" required>
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="inner">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+
+                        <div class="inner">
+                            <label for="phone_number">Phone Number</label>
+                            <input id="phone_number" name="phone_number" type="text">
+                        </div>
+                    </div>
+
+                    <div class="input-container">
+                        <div class="inner">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password">
+                        </div>
+                        <div class="inner">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input id="confirm_password" name="confirm_password" type="password">
+                        </div>
+                    </div>
+
+                    <button type="submit">Create Account</button>
+
                 </form>
+
+                <p>Already have an account?<a href="#">Log in</a></p>
             </div>
         </section>
 
