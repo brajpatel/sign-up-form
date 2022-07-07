@@ -24,6 +24,16 @@
     text-align: center;
     background: rgba(44, 44, 44, 0.685);
     margin-top: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
 }
 
 #form-container {
