@@ -36,6 +36,19 @@ h1 {
     color: white;
 }
 
+#image-credit {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 15%;
+    font-size: 1.1rem;
+}
+
+#image-credit a {
+    color: white;
+    margin: 0 0.2rem;
+}
+
 #form-container {
     height: 100%;
     width: 60%;
