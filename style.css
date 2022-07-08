@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -113,10 +115,11 @@ input {
     width: 15rem;
     border: 2px solid black;
     padding-left: 1rem;
+    font-size: 1rem;
 }
 
 input:focus {
-    background-color: rgba(214, 142, 109, 0.116);
+    background-color: rgba(165, 61, 42, 0.116);
 }
 
 button {
@@ -124,7 +127,7 @@ button {
     width: 12rem;
     font-size: 1.4rem;
     margin: 1rem 2rem;
-    background-color: brown;
+    background-color: rgb(165, 61, 42);
     border: none;
     color: white;
     border-radius: 4px;
