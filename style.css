@@ -182,6 +182,7 @@ button:hover {
     text-decoration: none;
     overflow: hidden;
     position: relative;
+    font-weight: 600;
 }
 
 .login-container a::before,
@@ -193,7 +194,7 @@ button:hover {
 
 .login-container a::before {
     background-color: brown;
-    height: 2px;
+    height: 3px;
     bottom: 0;
     transform: scaleX(0);
     transform-origin: 50% 0%;
