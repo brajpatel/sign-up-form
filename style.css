@@ -79,7 +79,7 @@ h1 {
 #form-container {
     height: 45%;
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem 1rem 2.5rem 2rem;
     transition: 0.1s linear;
 }
 
@@ -91,6 +91,7 @@ h1 {
     margin: 1rem 2rem;
     font-family: 'PT Sans', sans-serif;
     color: rgb(165, 61, 42);
+    font-size: 1.8rem;
 }
 
 #form-container form {
@@ -114,6 +115,9 @@ h1 {
 label {
     text-transform: uppercase;
     margin-bottom: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    width: 50%;
 }
 
 input {
@@ -122,10 +126,18 @@ input {
     border: 2px solid black;
     padding-left: 1rem;
     font-size: 1rem;
+    transition: 0.2s linear;
 }
 
 input:focus {
-    background-color: rgba(165, 61, 42, 0.212);
+    background-color: rgba(255, 174, 0, 0.212);
+    height: 2.5rem;
+    width: 17rem;
+    font-size: 1.2rem;
+}
+
+input:valid {
+    border: 2px solid green;
 }
 
 button {
@@ -138,10 +150,12 @@ button {
     color: white;
     border-radius: 4px;
     cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .login-container {
     height: 25%;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .login-container p {
