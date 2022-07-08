@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 * {
     margin: 0;
@@ -38,7 +39,7 @@
 h1 {
     font-size: 4rem;
     color: white;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     letter-spacing: 0.05ch;
 }
 
@@ -48,6 +49,7 @@ h1 {
     bottom: 1rem;
     left: 15%;
     font-size: 1.1rem;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #image-credit a {
@@ -72,7 +74,7 @@ h1 {
 }
 
 #text-container p {
-    margin: 1rem 2rem;
+    margin: 1rem 4rem;
     font-weight: 700;
 }
 
@@ -117,7 +119,8 @@ label {
     margin-bottom: 5px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 600;
-    width: 50%;
+    width: 75%;
+    letter-spacing: 0.1ch;
 }
 
 input {
@@ -150,12 +153,12 @@ button {
     color: white;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .login-container {
     height: 25%;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .login-container p {
