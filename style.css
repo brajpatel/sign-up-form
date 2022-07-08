@@ -161,9 +161,7 @@ button {
 
 button:hover {
     color: rgb(165, 61, 42);
-    background-color: rgb(238, 238, 238);
-    border: 3px solid rgb(165, 61, 42);
-    font-weight: 600;
+    background-color: transparent;
 }
 
 .login-container {
