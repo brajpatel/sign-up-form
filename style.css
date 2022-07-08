@@ -180,4 +180,27 @@ button:hover {
     margin-left: 0.5rem;
     color: brown;
     text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.login-container a::before,
+.login-container a::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+}
+
+.login-container a::before {
+    background-color: brown;
+    height: 2px;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: 50% 0%;
+    transition: transform 0.5s ease;
+}
+
+.login-container a:hover::before {
+    transform: scaleX(1);
+    transform-origin: 50% 0;
 }
