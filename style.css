@@ -39,7 +39,7 @@
 h1 {
     font-size: 4rem;
     color: white;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     letter-spacing: 0.05ch;
 }
 
@@ -70,7 +70,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 #text-container p {
@@ -91,7 +91,7 @@ h1 {
 
 #form-container h2 {
     margin: 1rem 2rem;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     color: rgb(165, 61, 42);
     font-size: 1.8rem;
 }
@@ -131,6 +131,8 @@ input {
     padding-left: 1rem;
     font-size: 1rem;
     transition: 0.2s linear;
+    font-family: 'Red Hat Display', sans-serif;
+    letter-spacing: 0.1ch;
 }
 
 input:valid {
