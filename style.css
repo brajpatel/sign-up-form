@@ -110,7 +110,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 50%;
     margin: 1rem 2rem;
 }
 
@@ -143,7 +143,7 @@ input:focus {
     background-color: rgba(255, 174, 0, 0.212);
     border: 2px solid black;
     height: 2.5rem;
-    width: 18rem;
+    width: 16rem;
 }
 
 #create-account {
@@ -222,4 +222,55 @@ input:focus {
 .login-container a:hover::before {
     transform: scaleX(1);
     transform-origin: 0% 0;
+}
+
+@media (max-width: 1200px) {
+    input {
+        height: 1.8rem;
+        width: 12rem;
+    }
+
+    input:focus {
+        height: 1.8rem;
+        width: 12rem;
+    }
+}
+
+@media (max-width: 900px) {
+    #bg-image {
+        width: 35%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    #right-container {
+        width: 65%;
+    }
+
+    #text-container p {
+        margin: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+
+    input {
+        height: 1.7rem;
+        width: 10rem;
+    }
+
+    input:focus {
+        height: 1.7rem;
+        width: 10rem;
+    }
+    
+    #create-account {
+        height: 3rem;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
 }
