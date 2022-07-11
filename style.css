@@ -107,7 +107,6 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     margin-left: 1rem;
-    border: 1px solid blue;
 }
 
 .inner {
@@ -116,7 +115,6 @@ h1 {
     justify-content: center;
     height: 100%;
     padding: 0.5rem 3rem 0.5rem 0;
-    border: 1px solid orange;
 }
 
 .inner:nth-child(even) {
