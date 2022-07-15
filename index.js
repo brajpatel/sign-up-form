@@ -27,6 +27,8 @@ function passwordConfirmation() {
     }
     else {
         password.style.border = "2px solid rgb(107, 107, 107)"
+        passwordLabel.innerHTML = "Password"
         confirmPassword.style.border = "2px solid rgb(107, 107, 107)"
+        confirmPasswordLabel.innerHTML = "Confirm Password"
     }
 }
